@@ -22,9 +22,18 @@ function generatePalette() {
 }
 
 function populateChart(data) {
-  let durations = data.map(({ totalDuration }) => totalDuration);
+  console.log(data);
+  let durations = data.map(({ totalDuration }) => totalDuration); 
+  ///let durations = [1,2,3,4,5,6,7];
+  console.log("durations");
+  console.log(durations);
   let pounds = calculateTotalWeight(data);
+  console.log("pounds");
+  console.log(pounds);
   let workouts = workoutNames(data);
+  console.log("names");
+  console.log(workouts);
+  
   const colors = generatePalette();
 
   let line = document.querySelector('#canvas').getContext('2d');
@@ -201,7 +210,8 @@ function workoutNames(data) {
   });
 
   // return de-duplicated array with JavaScript `Set` object
-  return [...new Set(workouts)];
+  //return [...new Set(workouts)];
+  return workouts
 }
 
 // get all workout data from back-end

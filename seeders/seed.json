@@ -1,0 +1,9 @@
+[{  "day" : 1609978386293, "exercises" : [ { "type" : "resistance", "name" : "Bicep Curl", "duration" : 20, "weight" : 100, "reps" : 10, "sets" : 4 } ] },
+{  "day" : 1610064786304, "exercises" : [ { "type" : "resistance", "name" : "Lateral Pull", "duration" : 20, "weight" : 300, "reps" : 10, "sets" : 4 } ] },
+{ "day" : 1610151186304, "exercises" : [ { "type" : "resistance", "name" : "Push Press", "duration" : 25, "weight" : 185, "reps" : 8, "sets" : 4 } ] },
+{  "day" : 1610237586304, "exercises" : [ { "type" : "cardio", "name" : "Running", "duration" : 25, "distance" : 4 } ] },
+{  "day" : 1610323986304, "exercises" : [ { "type" : "resistance", "name" : "Bench Press", "duration" : 20, "weight" : 285, "reps" : 10, "sets" : 4 } ] },
+{  "day" : 1610410386304, "exercises" : [ { "type" : "resistance", "name" : "Bench Press", "duration" : 20, "weight" : 300, "reps" : 10, "sets" : 4 } ] },
+{  "day" : ISODate("2021-01-13T00:13:06.304Z"), "exercises" : [ { "type" : "resistance", "name" : "Quad Press", "duration" : 30, "weight" : 300, "reps" : 10, "sets" : 4 } ] },
+{  "day" : ISODate("2021-01-14T00:13:06.304Z"), "exercises" : [ { "type" : "resistance", "name" : "Bench Press", "duration" : 20, "weight" : 300, "reps" : 10, "sets" : 4 } ] },
+{  "day" : ISODate("2021-01-15T00:13:06.304Z"), "exercises" : [ { "type" : "resistance", "name" : "Military Press", "duration" : 20, "weight" : 300, "reps" : 10, "sets" : 4 } ] }]
